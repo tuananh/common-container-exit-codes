@@ -7,7 +7,7 @@ Knowing this is especially helpful for Day 2 operations when your org recently a
 
 ## Common exit codes
 
-The way to remember is simple. You just have to remember that:
+The way to remember is simple. There're only 2 rules.
 
 - Container exit codes follow [chroot exit codes](https://tldp.org/LDP/abs/html/exitcodes.html).
 - For `128+n` code, it follows the signal code. That's it.
