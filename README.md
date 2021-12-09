@@ -2,6 +2,9 @@
 
 Knowing this is especially helpful for Day 2 operations when your org recently adopt Kubernetes.
 
+![image](https://user-images.githubusercontent.com/627278/145432100-9071ff9a-9134-481e-8ee3-00db891ac3f9.png)
+
+
 ## Common exit codes
 
 Container exit codes follow [chroot exit codes](https://tldp.org/LDP/abs/html/exitcodes.html).
