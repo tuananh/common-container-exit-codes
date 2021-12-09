@@ -16,7 +16,7 @@ Container exit codes follow [chroot exit codes](https://tldp.org/LDP/abs/html/ex
 |    127    | Possible some typos in shell script with unrecognizable characters, command not found, etc..             | Possible problem with $PATH or a typo                                             |
 |    128    | Invalid argument to exit                                                                                 | exit takes only integer args in the range 0-255                                   |
 |   128+n   | Fatal error signal "n"                                                                                   | Control-C is fatal error signal 2. (130 = 128 + 2). See below                     |
-|    130    | Container terminated by ctrl-C                                                                           |                                                                                   |
+|    130    | Container terminated by ctrl-C                                                                           | (128+2) Container received a Ctrl+C signal                                                                                   |
 |    137    | Indicates failure as container received SIGKILL (Manual intervention or ‘oom-killer’ [OUT-OF-MEMORY])    | (128+9)Container received a SIGKILL                                               |
 |    139    | Indicates failure as container received SIGSEGV, It could because ‘out of memory’, ‘stack overflow’ etc. | (128+11) Container received a SIGSEGV                                             |
 |    143    | Indicates failure as container received SIGTERM                                                          | (128+15) Container received a SIGTERM                                             |
